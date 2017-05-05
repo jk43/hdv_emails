@@ -9,7 +9,7 @@ Install
 
 Usage
 =
-    >>> from hdv_mailer import Message, GMailSMTP
+    >>> from hdv_emails import Message, GMailSMTP
     >>> gmail = GMailSMTP('gmail@gmail.com', password='gmailpassword')
     >>> message = Message(
                   html="hello",

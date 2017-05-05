@@ -1,24 +1,19 @@
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
-with open('README.md') as f:
-    readme = f.read()
-
-with open('LICENSE') as f:
-    license = f.read()
 
 setup(
-        name='hdv_mailer',
-        packages=["hdv_mailer"],
+        name='hdv_emails',
+        packages=["hdv_emails"],
         version='0.0.1',
         author='Alex Hyojun Kim',
         author_email='alex@hotdev.com',
         description='Simple wrapper class for emails',
-        license=license,
-        long_description=readme,
+        url='https://github.com/jk43/hdv_emails',
+        download_url='https://github.com/jk43/hdv_emails.git',
+        license='BSD',
         install_requires=[
             'emails==0.5.13',
-            'hdv_dummy'
             ],
-        entry_points={}
+        entry_points={},
       )
