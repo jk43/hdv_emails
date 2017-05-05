@@ -5,7 +5,7 @@ Emails is alreay human friendly python email libary.
 
 Install
 =
-	>>> pip install hdv_mailer	
+	>>> pip install hdv_emails
 
 Usage
 =
